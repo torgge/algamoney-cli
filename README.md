@@ -1,7 +1,9 @@
 # AlgamoneyUi
 
+
 --commands
 npm install primeng --save
+
 npm install font-awesome --save
 
 In [.angular-cli.json]
