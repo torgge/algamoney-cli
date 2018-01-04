@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import {InputTextModule} from 'primeng/components/inputtext/inputtext';
 import { AppComponent } from './app.component';
 import {ButtonModule} from 'primeng/components/button/button';
+import {DataTableModule, SharedModule} from 'primeng/primeng';
 
 
 @NgModule({
@@ -13,7 +14,9 @@ import {ButtonModule} from 'primeng/components/button/button';
   imports: [
     BrowserModule,
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    DataTableModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
