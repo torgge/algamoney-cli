@@ -4,19 +4,26 @@ import { NgModule } from '@angular/core';
 import {InputTextModule} from 'primeng/components/inputtext/inputtext';
 import { AppComponent } from './app.component';
 import {ButtonModule} from 'primeng/components/button/button';
-import {DataTableModule, SharedModule} from 'primeng/primeng';
+import {PaginatorModule} from 'primeng/components/paginator/paginator';
+import {DataTableModule} from 'primeng/components/datatable/datatable';
+import {TooltipModule} from 'primeng/components/tooltip/tooltip';
+import {SharedModule} from 'primeng/primeng';
+import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LancamentosPesquisaComponent
   ],
   imports: [
     BrowserModule,
     InputTextModule,
     ButtonModule,
     DataTableModule,
-    SharedModule
+    SharedModule,
+    PaginatorModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
