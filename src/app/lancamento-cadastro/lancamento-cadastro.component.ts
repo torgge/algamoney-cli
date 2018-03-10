@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LancamentoCadastroComponent implements OnInit {
 
+  TipoLancamento = [{label: 'Receita', value: 'RECEITA'},
+                    {label: 'Despesa', value: 'DESPESA'}];
+
   constructor() { }
 
   ngOnInit() {

@@ -14,6 +14,7 @@ import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.co
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
 import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     PaginatorModule,
     TooltipModule,
     InputTextareaModule,
-    CalendarModule
+    CalendarModule,
+    SelectButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
