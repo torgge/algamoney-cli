@@ -15,6 +15,7 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
 import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
+import {CurrencyMaskModule} from 'ng2-currency-mask';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
     TooltipModule,
     InputTextareaModule,
     CalendarModule,
-    SelectButtonModule
+    SelectButtonModule,
+    CurrencyMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]
