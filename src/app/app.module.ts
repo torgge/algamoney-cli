@@ -16,6 +16,8 @@ import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import {CurrencyMaskModule} from 'ng2-currency-mask';
+import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
+import {InputMaskModule} from 'primeng/components/inputmask/inputmask';
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import {CurrencyMaskModule} from 'ng2-currency-mask';
     LancamentosPesquisaComponent,
     NavbarComponent,
     PessoasPesquisaComponent,
-    LancamentoCadastroComponent
+    LancamentoCadastroComponent,
+    PessoaCadastroComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import {CurrencyMaskModule} from 'ng2-currency-mask';
     InputTextareaModule,
     CalendarModule,
     SelectButtonModule,
-    CurrencyMaskModule
+    CurrencyMaskModule,
+    InputMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]
