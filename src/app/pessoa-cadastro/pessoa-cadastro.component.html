@@ -21,13 +21,13 @@
         <input pInputText type="number">
       </div>
 
-      <div class="uig-12 ui-md-9 ui-fluid">
+      <div class="ui-g-12 ui-md-9 ui-fluid">
         <label>Complemento</label>
         <input pInputText type="text">
       </div>
 
-      <div class="ui-g-10 ui-g-2 ui-fluid">
-        <label>CEP</label>
+      <div class="ui-g-12 ui-md-3 ui-fluid">
+        <label>Cep</label>
         <p-inputMask mask="99999-999" placeholder="ex: 85868-110"></p-inputMask>
       </div>
 
@@ -38,7 +38,11 @@
 
       <div class="ui-g-12 ui-md-3 ui-fluid">
         <label>Estado</label>
-        <input pInputText type="number">
+        <p-dropdown [options]="estados"
+                    optionLabel="Nome"
+                    [autoWidth]="false"
+                    placeholder="Selecione um Estado"
+                    [filter]="true"></p-dropdown>
       </div>
 
       <div class="ui-g-12">
