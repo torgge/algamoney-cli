@@ -22,6 +22,7 @@ import {InputTextModule} from 'primeng/components/inputtext/inputtext';
 import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import {InputMaskModule} from 'primeng/components/inputmask/inputmask';
+import {MessageComponent} from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {InputMaskModule} from 'primeng/components/inputmask/inputmask';
     NavbarComponent,
     PessoasPesquisaComponent,
     LancamentoCadastroComponent,
-    PessoaCadastroComponent
+    PessoaCadastroComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
