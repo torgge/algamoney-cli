@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {NavbarComponent} from './navbar/navbar.component';
 
 import {CurrencyMaskModule} from 'ng2-currency-mask';
@@ -23,6 +23,8 @@ import {CalendarModule} from 'primeng/components/calendar/calendar';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import {InputMaskModule} from 'primeng/components/inputmask/inputmask';
 import {MessageComponent} from './message/message.component';
+import {LancamentosGridComponent} from './lancamentos-grid/lancamentos-grid.component';
+import {PessoasGridComponent} from './pessoas-grid/pessoas-grid.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import {MessageComponent} from './message/message.component';
     PessoasPesquisaComponent,
     LancamentoCadastroComponent,
     PessoaCadastroComponent,
-    MessageComponent
+    MessageComponent,
+    LancamentosGridComponent,
+    PessoasGridComponent
   ],
   imports: [
     BrowserModule,
