@@ -13,6 +13,8 @@ import {PessoasPesquisaComponent} from './pessoas-pesquisa/pessoas-pesquisa.comp
 import {PessoasGridComponent} from './pessoas-grid/pessoas-grid.component';
 import {PessoaCadastroComponent} from './pessoa-cadastro/pessoa-cadastro.component';
 import {CurrencyMaskModule} from 'ng2-currency-mask';
+import {SharedModule} from '../shared/shared.module';
+
 
 @NgModule({
   imports: [
@@ -26,7 +28,9 @@ import {CurrencyMaskModule} from 'ng2-currency-mask';
     InputMaskModule,
     DropdownModule,
 
-    CurrencyMaskModule
+    CurrencyMaskModule,
+
+    SharedModule
   ],
   declarations: [
     PessoaCadastroComponent,
